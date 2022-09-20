@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div id="box">
+        <div id="leftside">
+            <div id="title">New Notre Dame QB Signup</div>
+            <footer id="footer">
+                <p>this is a left side footer</p>
+            </footer>
+        </div>
+        <div id="rightside">
+            <div id="intro">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aspernatur accusantium reiciendis sunt repellendus suscipit vero omnis fugit, harum culpa atque sed porro! Laudantium vero, eveniet corrupti incidunt non velit.</p>
+                <p>Please sign up, it can't get worse than this.</p>
+            </div>
+            <div id="white">
+                <p>Offensive Coordinator & QB Coach Positions also opening up soon!</p>
+                <form id="inputs">
+                    <div class="col">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" required placeholder="Joe">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="email@email.com">
+                        <label for="pword">Password:</label>
+                        <input type="password" id="pword" name="pword" required>
+                    </div>
+                    <div class="col">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" required placeholder="Mama">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXXX" required >
+                        <label for="pword2">Confirm Password:</label>
+                        <input type="password" id="pword2" name="pword2" required novalidate>
+                    </div>
+                </form>
+            </div>
+            <div id="call2action">
+                <button>Create Account</button>
+                <div id="account">
+                    <p>Already have an account?&nbsp</p>
+                    <a href="">Log In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+/*overwrite default browser styles*/
+body,html {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#leftside {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 30vw;
+    background-image: url("https://images.rivals.com/image/upload/f_auto,q_auto,t_large/ycm7bafbsqom1hh4mepe");
+    background-position: 25% 0%;
+    background-repeat: no-repeat;
+    background-size: 70vh;
+}
+
+#rightside {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    background-color: rgba(235, 235, 235, 0.849);
+}
+
+#rightside div{
+    padding-left: 20px;
+}
+
+#white {
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(5, 5, 5, 0.10);
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.50);
+    color:white;
+    font-weight:bolder;
+    font: arial;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 30vw;
+    height: 2.5rem;
+}
+
+#inputs {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+#call2action {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#account {
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 3px;
+}
+
+button {
+    width: 15em;
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
